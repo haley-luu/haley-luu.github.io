@@ -10,178 +10,12 @@
 
   <meta
     name="description"
-    content="Selected epidemiology, biostatistics, field research, and health equity projects completed by Haley Luu."
+    content="Selected academic projects by Haley Luu in biostatistics, epidemiology, field research, health disparities, and public health communication."
   >
 
   <title>Projects | Haley Luu</title>
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      font-family: "Segoe UI", Arial, sans-serif;
-      background-color: #f7f6f2;
-      color: #243238;
-      line-height: 1.6;
-    }
-
-    nav {
-      background-color: #ffffff;
-      border-bottom: 1px solid #deded8;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-
-    .nav-container {
-      max-width: 1050px;
-      margin: 0 auto;
-      padding: 16px 24px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 24px;
-    }
-
-    .nav-name {
-      font-weight: bold;
-      font-size: 18px;
-      color: #243238;
-      text-decoration: none;
-    }
-
-    .nav-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .nav-links a {
-      color: #40575d;
-      text-decoration: none;
-      font-size: 15px;
-    }
-
-    .nav-links a:hover {
-      color: #2e4c50;
-      text-decoration: underline;
-    }
-
-    header {
-      padding: 70px 24px 55px;
-      background-color: #e9efec;
-    }
-
-    .page-header {
-      max-width: 1050px;
-      margin: 0 auto;
-    }
-
-    h1 {
-      margin: 0 0 14px;
-      font-size: clamp(40px, 7vw, 60px);
-      line-height: 1.1;
-    }
-
-    .page-intro {
-      max-width: 780px;
-      margin: 0;
-      font-size: 19px;
-      color: #40575d;
-    }
-
-    main {
-      max-width: 1050px;
-      margin: 0 auto;
-      padding: 60px 24px 80px;
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 24px;
-    }
-
-    .card {
-      display: flex;
-      flex-direction: column;
-      background-color: #ffffff;
-      border: 1px solid #deded8;
-      border-radius: 10px;
-      padding: 26px;
-      box-shadow: 0 3px 12px rgba(30, 45, 50, 0.05);
-    }
-
-    .card h2 {
-      margin: 0 0 14px;
-      font-size: 24px;
-      color: #2e4c50;
-    }
-
-    .card p {
-      margin: 0 0 18px;
-    }
-
-    .tags {
-      margin-bottom: 20px;
-    }
-
-    .tag {
-      display: inline-block;
-      margin: 5px 5px 0 0;
-      padding: 5px 9px;
-      border-radius: 20px;
-      background-color: #edf2f0;
-      color: #355754;
-      font-size: 13px;
-    }
-
-    .project-link {
-      display: inline-block;
-      margin-top: auto;
-      color: #355754;
-      font-weight: bold;
-      text-decoration: none;
-    }
-
-    .project-link:hover {
-      text-decoration: underline;
-    }
-
-    footer {
-      padding: 30px 24px;
-      background-color: #243238;
-      color: #ffffff;
-      text-align: center;
-    }
-
-    footer p {
-      margin: 0;
-    }
-
-    @media (max-width: 800px) {
-      .cards {
-        grid-template-columns: 1fr;
-      }
-
-      .nav-container {
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 10px;
-      }
-
-      .nav-links {
-        gap: 14px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -193,7 +27,7 @@
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="experience.html">Experience</a>
-        <a href="projects.html">Projects</a>
+        <a class="active" href="projects.html">Projects</a>
         <a href="skills.html">Skills</a>
         <a href="resume.html">Resume</a>
         <a href="contact.html">Contact</a>
@@ -201,14 +35,17 @@
     </div>
   </nav>
 
-  <header>
-    <div class="page-header">
+  <header class="page-header">
+    <div class="page-header-content">
+      <p class="eyebrow">Selected Academic Work</p>
+
       <h1>Projects</h1>
 
       <p class="page-intro">
-        Selected academic and applied projects reflecting my training in
-        biostatistics, epidemiology, field research, health disparities,
-        and public health communication.
+        These projects reflect different parts of my training in epidemiology
+        and public health, including statistical analysis, study planning,
+        field data collection, health disparities research, and scientific
+        communication.
       </p>
     </div>
   </header>
@@ -216,107 +53,123 @@
   <main>
     <div class="cards">
       <article class="card">
-        <h2>Factors Associated With Infant Birthweight</h2>
+        <h3>Factors Associated With Infant Birthweight</h3>
 
         <p>
-          A multivariable linear regression analysis examining factors
-          associated with infant birthweight, with particular attention
-          to characteristics related to lower birthweight.
+          For my Intermediate Biostatistics final project, I used
+          multivariable linear regression to identify factors associated with
+          infant birthweight, with particular attention to factors associated
+          with lower birthweight.
+        </p>
+
+        <p>
+          I completed the analysis in Stata, evaluated model assumptions and
+          diagnostics, interpreted adjusted associations, and presented the
+          analysis in a report organized into Introduction, Methods, Results,
+          and Discussion sections.
         </p>
 
         <div class="tags">
           <span class="tag">Stata</span>
-          <span class="tag">Multivariable Regression</span>
+          <span class="tag lilac">Multivariable Linear Regression</span>
           <span class="tag">Model Diagnostics</span>
-          <span class="tag">Maternal and Child Health</span>
+          <span class="tag lilac">Maternal and Child Health</span>
         </div>
-
-        <a
-          class="project-link"
-          href="projects/birthweight-analysis.html"
-        >
-          View Project →
-        </a>
       </article>
 
       <article class="card">
-        <h2>
+        <h3>
           D-Penicillamine Treatment and Primary Biliary Cirrhosis
-        </h2>
+        </h3>
 
         <p>
-          A biostatistical analysis of simulated clinical trial data
-          comparing D-penicillamine treatment with placebo among patients
-          with primary biliary cirrhosis.
+          For my Introduction to Biostatistics final project, I analyzed a
+          simulated dataset based on a randomized clinical trial comparing
+          D-penicillamine treatment with placebo among patients with primary
+          biliary cirrhosis.
+        </p>
+
+        <p>
+          I used Stata to summarize participant characteristics, compare
+          clinical and biochemical measures, examine differences across
+          histologic disease stages, and fit linear regression models.
         </p>
 
         <div class="tags">
           <span class="tag">Stata</span>
-          <span class="tag">Clinical Trial Data</span>
+          <span class="tag lilac">Clinical Trial Data</span>
           <span class="tag">Hypothesis Testing</span>
-          <span class="tag">Linear Regression</span>
+          <span class="tag lilac">Linear Regression</span>
         </div>
-
-        <a
-          class="project-link"
-          href="projects/pbc-analysis.html"
-        >
-          View Project →
-        </a>
       </article>
 
       <article class="card">
-        <h2>
+        <h3>
           C-Reactive Protein and Anxiety Among Women in Houston
-        </h2>
+        </h3>
 
         <p>
-          A team-developed Manual of Procedures for a proposed field
-          epidemiology study examining the association between CRP levels
-          and anxiety among adult women in Houston.
+          For my Field Epidemiology course, I worked with two classmates to
+          develop a Manual of Procedures for a proposed study evaluating the
+          association between C-reactive protein levels and anxiety among
+          adult women residing in Houston.
+        </p>
+
+        <p>
+          The project required us to build each section of the study plan over
+          the course of the semester, including procedures related to
+          recruitment, field data collection, biospecimen handling, quality
+          control, staff responsibilities, and standardized documentation.
         </p>
 
         <div class="tags">
           <span class="tag">Field Epidemiology</span>
-          <span class="tag">Study Design</span>
+          <span class="tag lilac">Study Design</span>
           <span class="tag">Data Collection</span>
-          <span class="tag">Quality Control</span>
+          <span class="tag lilac">Quality Control</span>
+          <span class="tag">Team Project</span>
         </div>
-
-        <a
-          class="project-link"
-          href="projects/crp-anxiety-mop.html"
-        >
-          View Project →
-        </a>
       </article>
 
       <article class="card">
-        <h2>
-          Mental and Chronic Physical Conditions Among Asian Americans
-        </h2>
+        <h3>
+          Co-occurrence of Mental Health and Chronic Physical Conditions
+          Among Asian Americans
+        </h3>
 
         <p>
-          A population health presentation examining the co-occurrence of
-          mental health and chronic physical conditions through a social
-          determinants of health framework.
+          For my Epidemiologic Methods in Population Health Differences
+          course, I developed a presentation focused on the co-occurrence of
+          mental health and chronic physical conditions among Asian Americans.
+        </p>
+
+        <p>
+          Using a social determinants of health approach, I described the
+          population and health disparity, reviewed factors that may
+          contribute to the disparity, identified gaps in the literature, and
+          developed recommendations for future research.
         </p>
 
         <div class="tags">
           <span class="tag">Health Disparities</span>
-          <span class="tag">Asian American Health</span>
+          <span class="tag lilac">Asian American Health</span>
           <span class="tag">Social Determinants of Health</span>
-          <span class="tag">Literature Synthesis</span>
+          <span class="tag lilac">Literature Synthesis</span>
         </div>
-
-        <a
-          class="project-link"
-          href="projects/asian-american-health.html"
-        >
-          View Project →
-        </a>
       </article>
     </div>
+
+    <section>
+      <h2>About the Materials</h2>
+
+      <p class="section-intro">
+        Detailed project pages, selected visualizations, and code samples will
+        be added as I review each project for course requirements,
+        confidentiality, and appropriate public sharing. Academic datasets
+        and findings will be clearly identified when they are simulated or
+        intended only for educational use.
+      </p>
+    </section>
   </main>
 
   <footer>
