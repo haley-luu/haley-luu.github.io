@@ -172,8 +172,12 @@ nav {
 
 .intro {
   max-width: 790px;
-  margin-bottom: 16px;
+  margin-bottom: 0px;
   font-size: 18px;
+}
+
+.hero-content .intro + .intro {
+  margin-top: 16px;
 }
 
 .page-header {
