@@ -89,6 +89,11 @@ section:last-child {
   margin-bottom: 0;
 }
 
+
+main > section:not(:first-child) {
+  margin-top: 48px;
+}
+
 /* ------------------------------
    NAVIGATION
 ------------------------------ */
@@ -350,7 +355,7 @@ nav {
 
 .content-block {
   max-width: 820px;
-  margin-bottom: 38px;
+  margin-bottom: 48px;
 }
 
 .content-block:last-child {
